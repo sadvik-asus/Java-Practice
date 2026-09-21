@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User-signup-page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header align="center">
+        <h1>Fruits and Flowers</h1>
+        <h2>User sign up page</h2>
+        <nav align="center">
+            <a href="home.html">Home</a> &nbsp;&nbsp;
+            <a href="flowers.html">Flowers</a> &nbsp;&nbsp;
+            <a href="fruits.html">Fruits</a> &nbsp;&nbsp;
+            <a href="gallery.html">Gallery</a> &nbsp;&nbsp;
+            <a href="FarmerSignup.html">Farmer SignUp</a> &nbsp;&nbsp;
+            <a href="FarmerSinin.html">Farmer SignIn</a> &nbsp;&nbsp;
+            <a href="#">User SighUp</a> &nbsp;&nbsp;
+            <a href="usersignin.html">User SignIn</a> &nbsp;&nbsp;
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <center>
+            <h2>Customer Registration Form</h2>
+
+            <form action="#" method="post">
+                <table cellpadding="8" cellspacing="5" border="1">
+                    <tr>
+                        <td align="right"><label for="uname">Full Name:</label></td>
+                        <td><input type="text" id="uname" name="fullName" required placeholder="Enter full name"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="uemail">Email Address:</label></td>
+                        <td><input type="email" id="uemail" name="email" required placeholder="name@example.com"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="uphone">Mobile Number:</label></td>
+                        <td><input type="tel" id="uphone" name="phone" required placeholder="10-digit number"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Gender:</td>
+                        <td>
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            &nbsp;
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                            &nbsp;
+                            <input type="radio" id="other" name="gender" value="other">
+                            <label for="other">Other</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="address">Delivery Address:</label></td>
+                        <td><textarea id="address" name="address" rows="3" cols="22" placeholder="House no, Street, Area"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="city">City:</label></td>
+                        <td><input type="text" id="city" name="city" required placeholder="Enter your city"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="pincode">Pincode:</label></td>
+                        <td><input type="text" id="pincode" name="pincode" required placeholder="6-digit pincode"></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="upwd">Password:</label></td>
+                        <td><input type="password" id="upwd" name="password" required></td>
+                    </tr>
+                    <tr>
+                        <td align="right"><label for="ucpwd">Confirm Password:</label></td>
+                        <td><input type="password" id="ucpwd" name="confirmPassword" required></td>
+                    </tr>
+                    <tr>
+                        <td align="center" colspan="2">
+                            <input type="submit" value="Sign Up">
+                            &nbsp;&nbsp;
+                            <input type="reset" value="Clear">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+
+            <p>Already have an account? <a href="usersignin.html">Click here to Sign In</a></p>
+        </center>
+    </main>
+    <hr>
+    <footer>
+        <h4 align="center">Copyrights - @ Mr.Innocent</h4>
+    </footer>
+</body>
+</html>

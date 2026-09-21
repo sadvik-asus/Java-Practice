@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Farmer-signup-form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header align="center">
+      <h1>Fruits and Flowers</h1>
+      <h2>Farmer-signup-form</h2>
+      <nav align="center">
+        <a href="home.html">Home</a> &nbsp;&nbsp;
+        <a href="flowers.html">Flowers</a> &nbsp;&nbsp;
+        <a href="fruits.html">Fruits</a> &nbsp;&nbsp;
+        <a href="gallery.html">Gallery</a> &nbsp;&nbsp;
+        <a href="#">Farmer SignUp</a> &nbsp;&nbsp;
+        <a href="FarmerSinin.html">Farmer SignIn</a> &nbsp;&nbsp;
+        <a href="usersignup.html">User SighUp</a> &nbsp;&nbsp;
+        <a href="usersignin.html">User SignIn</a> &nbsp;&nbsp;
+      </nav>
+    </header>
+
+    <hr />
+
+    <main>
+      <center>
+        <h2>Farmer Registration Form</h2>
+
+        <form action="#" method="post">
+          <table cellpadding="8" cellspacing="5" border="1">
+            <tr>
+              <td align="right"><label for="fname">Full Name:</label></td>
+              <td>
+                <input
+                  type="text"
+                  id="fname"
+                  name="fullName"
+                  required
+                  placeholder="Enter full name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="email">Email Address:</label>
+              </td>
+              <td>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="name@example.com"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="phone">Phone Number:</label>
+              </td>
+              <td>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="10-digit number"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="farmname">Farm/Business Name:</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="farmname"
+                  name="farmName"
+                  required
+                  placeholder="Enter farm name"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">Produce Type:</td>
+              <td>
+                <input
+                  type="checkbox"
+                  id="fruits"
+                  name="produce"
+                  value="fruits"
+                />
+                <label for="fruits">Fruits</label>
+                &nbsp;
+                <input
+                  type="checkbox"
+                  id="flowers"
+                  name="produce"
+                  value="flowers"
+                />
+                <label for="flowers">Flowers</label>
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="location">Farm Location/City:</label>
+              </td>
+              <td>
+                <input
+                  type="text"
+                  id="location"
+                  name="location"
+                  required
+                  placeholder="City or Village"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="pwd">Create Password:</label>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  id="pwd"
+                  name="password"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="right">
+                <label for="cpwd">Confirm Password:</label>
+              </td>
+              <td>
+                <input
+                  type="password"
+                  id="cpwd"
+                  name="confirmPassword"
+                  required
+                />
+              </td>
+            </tr>
+            <tr>
+              <td align="center" colspan="2">
+                <input type="submit" value="Register Now" />
+                &nbsp;&nbsp;
+                <input type="reset" value="Clear" />
+              </td>
+            </tr>
+          </table>
+        </form>
+
+        <p>
+          Already registered?
+          <a href="FarmerSinin.html">Click here to Sign In</a>
+        </p>
+      </center>
+    </main>
+
+    <hr />
+
+    <footer>
+      <h4 align="center">Copyrights - @ Mr.Innocent</h4>
+    </footer>
+  </body>
+</html>
